@@ -5,8 +5,14 @@
  <p>A passcode is required to go beyond this point. Please enter the passcode below.</p>
  
 <div>
-<label for="code">Enter code here:</label>
-<input type="password" id='"04142009" name="code" required>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
 </div>
 
-<input type="submit" value="Submit code">
+<div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+
+<input type="submit" value="Sign in">
