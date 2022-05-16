@@ -1,1 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+ <p>A passcode is required to go beyond this point. Please enter the passcode below.</p>
+ 
+<div>
+<label for="code">Enter code here:</label>
+<input type="password" id='"04142009" name="code"
+</div>
 
+<input type="submit" value="Submit code">
